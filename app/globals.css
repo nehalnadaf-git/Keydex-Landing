@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: #F8FAFC;
+  color: #1D1D1F;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   UNIVERSAL DESIGN SYSTEM — TEXT TIGHTENING RULES (INTER)
+   ══════════════════════════════════════════════════════════════ */
+
+/* Hero & Large Display Headlines: Heavily tightened */
+.tracking-hero {
+  letter-spacing: -0.04em;
+}
+
+/* Section Titles (22pt / 28px): Tightened (-0.7px) */
+.tracking-title {
+  letter-spacing: -0.03em;
+}
+
+/* Section Headers & H3 (17-19pt): Subtle tracking */
+.tracking-heading {
+  letter-spacing: -0.01em;
+}
+
+/* Body Copy (15pt): Opened slightly (+0.2px) for effortless mobile reading */
+.tracking-body {
+  letter-spacing: 0.015em;
+}
+
+/* Buttons & Navigation Pills: Tightened (-0.1px) to prevent pill overflow */
+.tracking-pill {
+  letter-spacing: -0.01em;
+}
+
+/* Tabular Numerals for Prices, Timestamps & Math */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" on;
+}
+
+/* ══════════════════════════════════════════════════════════════
+   KEYDEX 3D NEUMORPHIC KEYCAPS & PORCELAIN CARDS
+   ══════════════════════════════════════════════════════════════ */
+
+.keydex-keycap {
+  background: #FFFFFF;
+  border-radius: 6px;
+  box-shadow: 0 3.5px 0 #BAC3D0, 0 4px 6px -1px rgba(0, 0, 0, 0.08);
+  transition: all 0.08s ease;
+  user-select: none;
+}
+
+.keydex-keycap:active {
+  transform: translateY(2.5px);
+  box-shadow: 0 1px 0 #BAC3D0, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.keydex-keycap-dark {
+  background: #2C2C2E;
+  border-radius: 6px;
+  box-shadow: 0 3.5px 0 #1C1C1E, 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.keydex-card {
+  background: #FFFFFF;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 20px 40px -15px rgba(0, 122, 255, 0.06), 0 0 1px rgba(0, 0, 0, 0.04);
+}
+
+/* Ethereal Sky-Blue Ambient Glows */
+.ambient-glow {
+  background: radial-gradient(circle at 50% 30%, rgba(0, 122, 255, 0.09) 0%, rgba(248, 250, 252, 0) 70%);
+}
+
+.ambient-glow-pill {
+  background: radial-gradient(circle at 50% 50%, rgba(0, 122, 255, 0.12) 0%, rgba(255, 255, 255, 0) 80%);
+}
+
+/* Floating Animation */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-float-reverse {
+  animation: floatReverse 6s ease-in-out infinite;
+}
+
+/* Hide native scrollbars globally where needed */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
