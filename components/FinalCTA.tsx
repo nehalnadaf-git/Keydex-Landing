@@ -77,7 +77,7 @@ export function FinalCTA({ onOpenWaitlist }: FinalCTAProps) {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-6 pt-6 border-t border-slate-200/80 text-[13px] text-slate-500">
           <div className="flex items-center gap-2.5">
             <div className="w-7 h-7 relative flex items-center justify-center">
-              <Image src="/logo-light.png" alt="Keydex" fill className="object-contain" />
+              <Image src="/logo-light.webp" alt="Keydex" fill className="object-contain" />
             </div>
             <span className="font-semibold text-shark">Keydex</span>
             <span>·</span>

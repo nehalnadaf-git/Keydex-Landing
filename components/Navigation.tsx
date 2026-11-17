@@ -47,7 +47,7 @@ export function Navigation({ onOpenWaitlist }: NavigationProps) {
           >
             <div className="w-8 h-8 relative flex items-center justify-center">
               <Image
-                src="/logo-light.png"
+                src="/logo-light.webp"
                 alt="Keydex Logo"
                 width={32}
                 height={32}

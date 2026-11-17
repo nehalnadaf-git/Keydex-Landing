@@ -11,7 +11,7 @@ const HERO_SLIDES = [
   {
     id: 'text',
     title: 'Text & Number Expansion',
-    screenshot: '/screenshots/demo/Adhar number V2.png',
+    screenshot: '/screenshots/demo/Adhar number V2.webp',
     alt: 'Keydex instant Aadhaar number expansion in WhatsApp',
     reactionText: 'Dispatched in 1.2s',
     reactionContext: 'Zero app switching',
@@ -19,7 +19,7 @@ const HERO_SLIDES = [
   {
     id: 'photo',
     title: 'Zero-Gallery Photo Drop',
-    screenshot: '/screenshots/demo/Pan Card photo V2.png',
+    screenshot: '/screenshots/demo/Pan Card photo V2.webp',
     alt: 'Keydex micro-thumbnail PAN card photo drop into chat',
     reactionText: 'Zero-Gallery Photo Drop',
     reactionContext: '1-tap ID insertion',
@@ -27,7 +27,7 @@ const HERO_SLIDES = [
   {
     id: 'contact',
     title: 'Cross-App Chat Teleport',
-    screenshot: '/screenshots/demo/Nehal Contact(insta) V2.png',
+    screenshot: '/screenshots/demo/Nehal Contact(insta) V2.webp',
     alt: 'Keydex 1-tap teleport from WhatsApp to Instagram DM',
     reactionText: '1-Tap Teleport',
     reactionContext: 'WhatsApp to Instagram',
@@ -35,7 +35,7 @@ const HERO_SLIDES = [
   {
     id: 'qr',
     title: 'Dynamic UPI QR Billing',
-    screenshot: '/screenshots/demo/so fast.png',
+    screenshot: '/screenshots/demo/so fast.webp',
     alt: 'Keydex instant UPI QR code in WhatsApp chat',
     reactionText: '\u201cbro what are you using so fast?\u201d',
     reactionContext: 'Dynamic UPI QR',
@@ -43,7 +43,7 @@ const HERO_SLIDES = [
   {
     id: 'calc',
     title: 'In-Keyboard Math',
-    screenshot: '/screenshots/demo/Calculator.png',
+    screenshot: '/screenshots/demo/Calculator.webp',
     alt: 'Keydex in-keyboard calculator panel with live split calculation',
     reactionText: 'In-Keyboard Math',
     reactionContext: 'Live split calculation',
@@ -51,7 +51,7 @@ const HERO_SLIDES = [
   {
     id: 'wheel',
     title: 'Spacebar Quick Wheel',
-    screenshot: '/screenshots/demo/Quick wheel.png',
+    screenshot: '/screenshots/demo/Quick wheel.webp',
     alt: 'Keydex spacebar radial dial fanning across keyboard',
     reactionText: '200ms Spacebar Gesture',
     reactionContext: 'Radial tool dial',

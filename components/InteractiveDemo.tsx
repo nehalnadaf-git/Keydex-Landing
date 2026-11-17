@@ -23,7 +23,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Paste 12-digit Aadhaar, bank IFSC, or full addresses with one tap. Never leave your conversation.',
     pillPreview: '986351651043',
     chatSnippet: 'Sharib: "Send your Govt ID number ASAP" → Types "Adhar" → Taps "986351651043" → Sent in 1.2s',
-    screenshot: '/screenshots/demo/Adhar number V2.png',
+    screenshot: '/screenshots/demo/Adhar number V2.webp',
   },
   {
     id: 'image',
@@ -34,7 +34,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Send PAN cards, driving licenses, or certificates directly into your active chat. Zero gallery hunting.',
     pillPreview: 'PAN Card Photo',
     chatSnippet: 'Sharib: "Send PAN Card photo too" → Types "Panim" → Photo pill → Drops photo into chat',
-    screenshot: '/screenshots/demo/Pan Card photo V2.png',
+    screenshot: '/screenshots/demo/Pan Card photo V2.webp',
   },
   {
     id: 'contact',
@@ -45,7 +45,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Teleport directly to Instagram DMs from WhatsApp with one tap. Zero home screen navigation.',
     pillPreview: 'Nehal (Instagram)',
     chatSnippet: 'Sharib: "Did Nehal confirm on insta?" → Types "Nehal" → 1 tap teleports straight to Instagram DM',
-    screenshot: '/screenshots/demo/Nehal Contact(insta) V2.png',
+    screenshot: '/screenshots/demo/Nehal Contact(insta) V2.webp',
   },
   {
     id: 'billing',
@@ -56,7 +56,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Generate a payment QR code with the exact amount ready. Scan to pay instantly with GPay or PhonePe.',
     pillPreview: 'BILL ₹1500 + UPI',
     chatSnippet: 'Sharib: "Send payment QR" → Types "bill 1500" → Drops payment QR image in chat',
-    screenshot: '/screenshots/demo/so fast.png',
+    screenshot: '/screenshots/demo/so fast.webp',
   },
   {
     id: 'calculator',
@@ -67,7 +67,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Calculate totals and splits directly inside the keyboard dock. Insert live results into chat with one tap.',
     pillPreview: 'Insert ₹5,100',
     chatSnippet: 'Sharib: "What’s each person’s split?" → Opens in-keyboard calculator → Live "= 5,100" → Taps insert',
-    screenshot: '/screenshots/demo/Calculator.png',
+    screenshot: '/screenshots/demo/Calculator.webp',
   },
   {
     id: 'wheel',
@@ -78,7 +78,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Hold spacebar for 200ms to open a 5-slot radial dial. Slide your thumb across tools and release to launch.',
     pillPreview: 'Radial Action Dial',
     chatSnippet: 'Holds spacebar → Radial arc fans across keyboard → Slide to select → Release to launch',
-    screenshot: '/screenshots/demo/Quick wheel.png',
+    screenshot: '/screenshots/demo/Quick wheel.webp',
   },
   {
     id: 'catalog',
@@ -89,7 +89,7 @@ const SHORTCUT_DEMOS = [
     desc: 'Open a 3-column product grid inside your keyboard. Build orders and generate dynamic payment QRs in seconds.',
     pillPreview: '4 items | Total: ₹8,900',
     chatSnippet: 'Sharib: "Give me the total price" → Taps bag → Adds items → Total: ₹8,900 → 1-tap "QR Image"',
-    screenshot: '/screenshots/demo/products.png',
+    screenshot: '/screenshots/demo/products.webp',
   },
 ];
 

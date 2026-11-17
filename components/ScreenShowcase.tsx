@@ -41,8 +41,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'App Launchers: Open Blinkit, YouTube, or Spotify directly from typing',
       'Speed Dial: 1-tap call shortcuts for your closest contacts',
     ],
-    darkImg: '/screenshots/dark/Home Screen.png',
-    lightImg: '/screenshots/light/Home Screen.png',
+    darkImg: '/screenshots/dark/Home Screen.webp',
+    lightImg: '/screenshots/light/Home Screen.webp',
   },
   {
     id: 'keyboard',
@@ -56,8 +56,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'Instant Suggestion Bar showing real values and photo previews',
       'Spacebar Trackpad to glide your cursor precisely between letters',
     ],
-    darkImg: '/screenshots/dark/Keyboard.png',
-    lightImg: '/screenshots/light/keyboard.png',
+    darkImg: '/screenshots/dark/Keyboard.webp',
+    lightImg: '/screenshots/light/keyboard.webp',
   },
   {
     id: 'wheel',
@@ -71,8 +71,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'Slide-to-choose, release-to-send without lifting your thumb',
       'Dedicated center hub to cancel gestures anytime',
     ],
-    darkImg: '/screenshots/demo/Quick wheel.png',
-    lightImg: '/screenshots/demo/Quick wheel.png',
+    darkImg: '/screenshots/demo/Quick wheel.webp',
+    lightImg: '/screenshots/demo/Quick wheel.webp',
   },
   {
     id: 'products',
@@ -86,8 +86,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'One-tap bill and QR image generation',
       'Instant custom payment QRs with exact bill amounts included',
     ],
-    darkImg: '/screenshots/dark/Product screen.png',
-    lightImg: '/screenshots/light/Product.png',
+    darkImg: '/screenshots/dark/Product screen.webp',
+    lightImg: '/screenshots/light/Product.webp',
   },
   {
     id: 'calc',
@@ -101,8 +101,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       '1-Tap Insertion: Insert plain number, currency, or full equation',
       'Split group dinners and expenses in one touch',
     ],
-    darkImg: '/screenshots/dark/Calculator.png',
-    lightImg: '/screenshots/light/Calculator.png',
+    darkImg: '/screenshots/dark/Calculator.webp',
+    lightImg: '/screenshots/light/Calculator.webp',
   },
   {
     id: 'clipboard',
@@ -116,8 +116,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'One-tap pin to save critical addresses or links permanently',
       'Smart code recognition chips for instant OTP pasting',
     ],
-    darkImg: '/screenshots/dark/Clipboard.png',
-    lightImg: '/screenshots/light/Clipboard.png',
+    darkImg: '/screenshots/dark/Clipboard.webp',
+    lightImg: '/screenshots/light/Clipboard.webp',
   },
   {
     id: 'settings',
@@ -131,8 +131,8 @@ const SHOWCASE_SLIDES: ShowcaseSlide[] = [
       'Satisfying typing vibrations and authentic mechanical sounds',
       'Automatically pauses in password fields for complete privacy',
     ],
-    darkImg: '/screenshots/dark/Settings screen.png',
-    lightImg: '/screenshots/light/Settings screen.png',
+    darkImg: '/screenshots/dark/Settings screen.webp',
+    lightImg: '/screenshots/light/Settings screen.webp',
   },
 ];
 
