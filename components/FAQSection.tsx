@@ -11,10 +11,10 @@ interface FAQItem {
 
 const FAQS: FAQItem[] = [
   {
-    question: 'Apple and Android show a warning when enabling third-party keyboards. Can Keydex read my passwords or OTPs?',
+    question: 'How secure is the personal data and document vault?',
     answer:
-      'Never. That warning is a standard system prompt shown for every custom keyboard without exception. Keydex takes an uncompromising approach: zero internet access. The keyboard has no network permissions, no remote servers, and no cloud sync. What you type stays strictly on your device.',
-    highlight: '100% On-Device · Zero Internet Access',
+      'Your data is protected by complete on-device isolation. Keydex operates with zero network access, meaning your files and shortcuts are never transmitted, stored online, or analyzed. What stays on your phone, stays on your phone.',
+    highlight: 'Offline Armored Vault',
   },
   {
     question: 'Do I have to switch back to Gboard or Apple Keyboard for regular typing?',
