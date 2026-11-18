@@ -5,9 +5,9 @@ export const metadata: Metadata = {
   title: 'Keydex: Keyboard, Shortcuts — Never Switch Apps Again',
   description:
     'Keydex is a private, 100% offline keyboard designed for speed. Instant shortcuts for text, saved snippets, photos, PDFs, contacts, and billing directly where you type.',
-  metadataBase: new URL('https://keydex.app'),
+  metadataBase: new URL('https://keydex-landing.vercel.app'),
   applicationName: 'Keydex',
-  authors: [{ name: 'Nehal Nadaf', url: 'https://keydex.app' }],
+  authors: [{ name: 'Nehal Nadaf', url: 'https://keydex-landing.vercel.app' }],
   keywords: [
     'Keydex',
     'shortcuts keyboard',
@@ -31,14 +31,32 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Keydex: Keyboard, Shortcuts — Never Switch Apps Again',
     description: 'Instant shortcuts for text, photos, PDFs, contacts, and billing directly where you type. 100% offline.',
+    url: 'https://keydex-landing.vercel.app',
     siteName: 'Keydex',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Keydex — Never Switch Apps Again',
+        type: 'image/jpeg',
+      },
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Keydex — Never Switch Apps Again',
+        type: 'image/png',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Keydex: Keyboard, Shortcuts — Never Switch Apps Again',
-    description: 'Everything you need, right where you type. 100% offline keyboard with rich shortcuts.',
+    description: 'Instant shortcuts for text, photos, PDFs, contacts, and billing directly where you type. 100% offline.',
+    images: ['/og-image.jpg'],
   },
 };
 
