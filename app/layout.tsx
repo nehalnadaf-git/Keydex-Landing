@@ -38,15 +38,15 @@ export const metadata: Metadata = {
     images: [
       {
         url: '/og-image.jpg',
-        width: 1024,
-        height: 1024,
-        alt: 'Keydex',
+        width: 1200,
+        height: 630,
+        alt: 'Keydex — never switch apps again',
         type: 'image/jpeg',
       },
     ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Keydex: Keyboard, Shortcuts — Never Switch Apps Again',
     description: 'Instant shortcuts for text, photos, PDFs, contacts, and billing directly where you type. 100% offline.',
     images: ['/og-image.jpg'],
