@@ -11,34 +11,40 @@ interface FAQItem {
 
 const FAQS: FAQItem[] = [
   {
-    question: 'Can Keydex see my passwords, banking PINs, or private chats?',
+    question: 'Apple and Android show a warning when enabling third-party keyboards. Can Keydex read my passwords or OTPs?',
     answer:
-      'Never. Keydex has zero internet capability. Keystrokes, shortcuts, and photos never leave your device. When typing in password fields, suggestions pause automatically.',
-    highlight: '100% Offline · Zero Internet Access',
+      'Never. That warning is a standard system prompt shown for every custom keyboard without exception. Keydex takes an uncompromising approach: zero internet access. The keyboard has no network permissions, no remote servers, and no cloud sync. What you type stays strictly on your device.',
+    highlight: '100% On-Device · Zero Internet Access',
   },
   {
-    question: 'How does sending photos work without opening the gallery?',
+    question: 'Do I have to switch back to Gboard or Apple Keyboard for regular typing?',
     answer:
-      'Keydex allows your keyboard to paste saved images directly into your conversation. Tapping a photo shortcut drops the image right into your active chat without you ever having to open your gallery or search through photos.',
-    highlight: 'Direct In-Chat Pasting',
+      'No. Keydex is engineered to be your primary daily keyboard. It delivers responsive typing with tactile haptics, gesture swiping, and clean key spacing. Your saved shortcuts, photo cards, and tools stay discreetly out of the way until you type a keyword or summon them.',
+    highlight: 'Designed as Your Full-Time Keyboard',
   },
   {
-    question: 'Will this keyboard slow down my phone or cause typing lag?',
+    question: 'Does Keydex work across all apps or only specific ones?',
     answer:
-      'No. Keydex is ultra-lightweight and tuned for speed. Typing, vibrations, and sounds respond instantly on your phone with zero lag.',
-    highlight: 'Instant, Lag-Free Typing',
+      'Everywhere you can type. Whether you are chatting in WhatsApp, replying to Instagram DMs, messaging on Telegram, composing in Gmail, or jotting notes, Keydex is right there. If a text field opens on your phone, Keydex works in it seamlessly.',
+    highlight: 'Universal Compatibility',
   },
   {
-    question: 'Which operating systems and apps are supported?',
+    question: 'How does sending documents or photos without opening the gallery work?',
     answer:
-      'Keydex is designed for both Android and iOS. It functions seamlessly across WhatsApp, Instagram, Telegram, Gmail, Slack, Notes, and every other app you type in.',
-    highlight: 'Works in Every App',
+      'Instead of interrupting your conversation, opening your photo library, and scrolling past thousands of personal photos, you link your critical cards or document slips once. From then on, you drop them straight into your active conversation with a single tap.',
+    highlight: 'Zero Gallery Hunting',
   },
   {
-    question: 'How does the early access rollout work?',
+    question: 'Can I really calculate totals and split bills without opening a calculator?',
     answer:
-      'We are rolling out Keydex in limited private batches. Tapping the App Store or Google Play button reserves your spot in Batch #1, with an invite delivered directly to your inbox.',
-    highlight: 'Private Batch #1 Access',
+      'Yes. If you are discussing expenses, splitting dinner, or tallying items, you can calculate figures directly inside your message box. You get instant math totals and pre-filled payment requests on the fly without ever leaving your chat.',
+    highlight: 'Live In-Chat Math & Split',
+  },
+  {
+    question: 'Which mobile platforms are supported?',
+    answer:
+      'Keydex is built natively for both iOS and Android. Your typing speed, shortcuts, and privacy guarantees remain identical across iPhone and Android devices.',
+    highlight: 'iOS & Android Native',
   },
 ];
 
