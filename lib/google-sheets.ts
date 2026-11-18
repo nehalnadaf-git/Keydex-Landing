@@ -10,9 +10,9 @@ export interface WaitlistSubmission {
 
 // Google Forms submission endpoint
 // Email is captured via "Responder input" setting → field name: emailAddress
-// Platform question entry ID: entry.1507444668
+// Platform question entry ID: entry.333660383
 const GOOGLE_FORM_URL =
-  'https://docs.google.com/forms/d/e/1FAIpQLSdILGLn3wMYtSkT4b_uHmfTltrRZ-adqerN-Lf5q8tSsvipWw/formResponse';
+  'https://docs.google.com/forms/d/e/1FAIpQLSdtS7b4OIbG_OBl6UH5o5Lmjo3BrmVrWeDqXtRb0oMoy7JCWw/formResponse';
 
 // Local CSV backup — always written first so no submission is ever lost
 async function saveToLocalBackup(data: WaitlistSubmission) {
@@ -45,7 +45,7 @@ async function submitToGoogleForms(data: WaitlistSubmission): Promise<boolean> {
 
     const body = new URLSearchParams();
     body.append('emailAddress', data.email);                 // Captured by "Responder input"
-    body.append('entry.1507444668', platformLabel);          // "Platform" question
+    body.append('entry.333660383', platformLabel);          // "Platform" question
 
     const response = await fetch(GOOGLE_FORM_URL, {
       method: 'POST',
